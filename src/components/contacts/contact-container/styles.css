@@ -1,0 +1,44 @@
+.photo {
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.selected {
+  background-color: #eee;
+}
+
+.contacts-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 18px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  column-gap: 10px;
+  border-bottom: 1px solid;
+  align-items: center;
+  padding: 10px;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  row-gap: 10px;
+}
+
+.contacts-message {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.contacts-name {
+  font-size: 20px;
+  font-weight: bold;
+}
